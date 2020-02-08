@@ -1,0 +1,87 @@
+@media all and (max-width: 960px) {
+.logo {
+       margin-left: 20px;
+    }
+    .icon {
+        width: 42px;
+        height: 40px;
+        background-color: #1f6a63;
+        right: 10px;
+        top: 25px;
+        position: fixed;
+        cursor: pointer;
+    }
+    .icon a:active{
+
+    }
+    .nav_menu{
+        width: 20px;
+        height: 5px;
+        background-color: white;
+        position: relative;
+        top: 17px;
+        left: 10px;
+    }
+    .nav_menu::before{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 5px;
+        background-color: white;
+        position: absolute;
+        left: 0px;
+        top:-10px;
+    }
+    .nav_menu::after{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 5px;
+        background-color: white;
+        position: absolute;
+        left: 0px;
+        top:10px;
+    }
+    .menu {
+        width: 42px;
+        height: 30px;
+        background-color: #1f6a63;
+        right: 10px;
+        top: 25px;
+        position: fixed;
+        cursor: pointer;
+    }
+
+    .menu:active> ul{
+        float: right;
+        display: flex;
+        flex-direction:column ;
+        
+    }
+
+    .menu > ul {
+        position: fixed;
+        display: none;
+        list-style: none;
+        padding: 0px;
+        right: 0px;
+        width: 210px;
+        top: 73px;
+    }
+    .menu > ul > li {
+        background: url("../images/fon_ad_menu.png");
+        background-size:contain;
+        min-height: 28px;
+        border:1px inherit #a2b1ad;
+        width: 210px;
+    }
+
+   
+  .menu > ul > li > a:hover {
+    background: url("../images/fon_col.png");
+    background-size:contain;
+    border-radius:5%;
+    border:1px inherit #a2b1ad;
+    box-shadow: 0px 1px 0px 0px #bfe3d9;
+    width: 210px;
+}
