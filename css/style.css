@@ -2,7 +2,9 @@
 @import "media.css";
 
 @media all and (min-width: 960px) {}
-
+#menuToggle{
+	display:none;
+}
 .bg1{
 	width:100%;
 	height:12px;
